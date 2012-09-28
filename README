@@ -27,6 +27,7 @@ $ export MC_SKIN=$HOME/.mc/solarized.ini
 
 Color reference:
 ----------------
+Syntax is: Text color;Background color
 
 SOLARIZED HEX       TERMCOL
 --------  -------   -------
