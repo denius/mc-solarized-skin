@@ -16,15 +16,10 @@ Also, it seems it's bloody scattered all over the place, and one has to collect 
 and I do mean TINY, and sometimes outdated, pieces of information to form something complete.   
 That's why I took the libery to comment EVERYTHING, just in case.   
 
-```
-Note you might need mc > 4.7.5 for this scheme to work   
-  -> Otherwise this file will not be read.  
-Hint: See [MC install script][7]   
-  -> To compile from source.   
-```
-
 # Installation and Usage
 
+Note you might need mc > 4.7.5 for this scheme to work   
+See [MC install script][7] on how to compile from source.   
 Clone the repostiry into $HOME/.mc/lib/mc-solarized,   
 and define MC_SKIN in .bashrc, .zshrc or .whatnotrc:   
 
