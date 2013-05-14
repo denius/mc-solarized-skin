@@ -11,25 +11,26 @@ close as possible to the Solarized [dircolors.ansi-universal][5].
 Some info on skin writing is available on [MC wiki][6],   
 yet it's usually takes a PHD to understand what's going on.   
 And since I'm senile and lazy, I don't want to keep going to external references.   
+
 Also, it seems it's bloody scattered all over the place, and one has to collect tiny,   
 and I do mean TINY, and sometimes outdated, pieces of information to form something complete.   
 That's why I took the libery to comment EVERYTHING, just in case.   
 
+```
 Note you might need mc > 4.7.5 for this scheme to work (otherwise this file will not be read)   
-
-Hint: See my midnight-commander repository install script.
+Hint: See my midnight-commander repository install script.   
+```
 
 # Installation and Usage
 
-Put the solarized.ini file into $HOME/.mc/lib/mc-solarized directory.   
-Then define MC_SKIN in your .bashrc, .zshrc or .whatnotrc to direct there:   
+Clone the repostiry into $HOME/.mc/lib/mc-solarized,   
+and define MC_SKIN in .bashrc, .zshrc or .whatnotrc:   
 
 ```bash
+mkdir -p $HOME/.mc/lib/
+git clone https://github.com/iwfmp/mc-solarized-skin.git $HOME/.mc/lib/
 echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc
 ```
-
-Hint: See my midnight-commander repository install script.
-
 # Color reference
 
 Syntax is: Text color;Background color
