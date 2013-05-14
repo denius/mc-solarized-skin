@@ -17,8 +17,10 @@ and I do mean TINY, and sometimes outdated, pieces of information to form someth
 That's why I took the libery to comment EVERYTHING, just in case.   
 
 ```
-Note you might need mc > 4.7.5 for this scheme to work (otherwise this file will not be read)   
-Hint: See my midnight-commander repository install script.   
+Note you might need mc > 4.7.5 for this scheme to work   
+  -> Otherwise this file will not be read.  
+Hint: See [MC install script][7]   
+  -> To compile from source.   
 ```
 
 # Installation and Usage
@@ -64,3 +66,4 @@ Syntax is: Text color;Background color
 [4]: http://www.midnight-commander.org/nopaste/skin_parser/outdir      "GoTaR"
 [5]: https://github.com/seebi/dircolors-solarized                      "dircolors.ansi-universal"
 [6]: https://www.midnight-commander.org/wiki/doc/common/skins          "MC wiki"
+[6]: https://github.com/iwfmp/midnight-commander/blob/master/install   "MC install script"
