@@ -1,14 +1,14 @@
 # Solarized skin for Midnight Commander
 
-This is a skin for Midnight Commander [1] using the Solarized palette [2].   
+This is a skin for [Midnight Commander][1] using the [Solarized palette][2].   
 It is designed to be used with terminal emulators that use Solarized palette as   
-their ANSI colors [3].   
+their [ANSI colors][3].   
 
 It is a fork from nkulikov/mc-solarized-skin however it was rewriten from   
-scratch based on GoTaR [4] MC skin. The file highliting was adjusted to be as   
-close as possible to the Solarized dircolors.ansi-universal [5].   
+scratch based on [GoTaR][4] MC skin. The file highliting was adjusted to be as   
+close as possible to the Solarized [dircolors.ansi-universal][5].   
 
-Some info on skin writing is available on MC wiki [6],   
+Some info on skin writing is available on [MC wiki][6],   
 yet it's usually takes a PHD to understand what's going on.   
 And since I'm senile and lazy, I don't want to keep going to external references.   
 Also, it seems it's bloody scattered all over the place, and one has to collect tiny,   
@@ -58,11 +58,12 @@ Syntax is: Text color;Background color
 ```
 
 # Links
+I get 10 times more traffic from [Google] [1] than from
+[Yahoo] [2] or [MSN] [3].
 
-[1] - https://www.midnight-commander.org/   
-[2] - http://ethanschoonover.com/solarized   
-[3] - For gnome-terminal look here:   
-      https://github.com/sigurdga/gnome-terminal-colors-solarized   
-[4] - http://www.midnight-commander.org/nopaste/skin_parser/outdir/   
-[5] - https://github.com/seebi/dircolors-solarized   
-[6] - https://www.midnight-commander.org/wiki/doc/common/skins   
+  [1]: https://www.midnight-commander.org                                "Midnight Commander"
+  [2]: http://ethanschoonover.com/solarized                              "Solarized palette"
+  [3]: https://github.com/sigurdga/gnome-terminal-colors-solarized       "ANSI colors"
+  [4]: http://www.midnight-commander.org/nopaste/skin_parser/outdir      "GoTaR"
+  [5]: https://github.com/seebi/dircolors-solarized                      "dircolors.ansi-universal"
+  [6]: https://www.midnight-commander.org/wiki/doc/common/skins          "MC wiki"
