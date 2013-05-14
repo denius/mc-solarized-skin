@@ -1,4 +1,4 @@
-* Solarized skin for Midnight Commander
+# Solarized skin for Midnight Commander
 
 This is a skin for Midnight Commander [1] using the Solarized palette [2]. It
 is designed to be used with terminal emulators that use Solarized palette as
@@ -18,14 +18,14 @@ That's why I took the libery to comment EVERYTHING, just in case.
 Note you might need mc > 4.7.5 for this scheme to work (otherwise this file will not be read)
 Hint: See my midnight-commander repository install script.
 
-* Usage
+# Usage
 
 Put the solarized.ini file into $HOME/.mc/lib/mc-solarized directory. 
 Then define MC_SKIN in your .bashrc, .zshrc or .whatnotrc to direct there:
 $ echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc
 Hint: See my midnight-commander repository install script.
 
-* Color reference:
+# Color reference:
 
 Syntax is: Text color;Background color
 
@@ -50,7 +50,7 @@ green     #859900   green
 
 lightgray
 
-* Links
+# Links
 
 [1] - https://www.midnight-commander.org/
 [2] - http://ethanschoonover.com/solarized
