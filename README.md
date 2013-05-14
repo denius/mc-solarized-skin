@@ -1,61 +1,61 @@
 # Solarized skin for Midnight Commander
 
-This is a skin for Midnight Commander [1] using the Solarized palette [2]. It
-is designed to be used with terminal emulators that use Solarized palette as
+This is a skin for Midnight Commander [1] using the Solarized palette [2].  
+It is designed to be used with terminal emulators that use Solarized palette as  
 their ANSI colors [3].
 
-It is a fork from nkulikov/mc-solarized-skin however it was rewriten from
-scratch based on GoTaR [4] MC skin. The file highliting was adjusted to be as
-close as possible to the Solarized dircolors.ansi-universal [5].
+It is a fork from nkulikov/mc-solarized-skin however it was rewriten from  
+scratch based on GoTaR [4] MC skin. The file highliting was adjusted to be as  
+close as possible to the Solarized dircolors.ansi-universal [5].  
 
-Some info on skin writing is available on MC wiki [6],
-yet it's usually takes a PHD to understand what's going on.
-And since I'm senile and lazy, I don't want to keep going to external references.
-Also, it seems it's bloody scattered all over the place, and one has to collect tiny, 
-and I do mean TINY, and sometimes outdated, pieces of information to form something complete.
-That's why I took the libery to comment EVERYTHING, just in case.
+Some info on skin writing is available on MC wiki [6],  
+yet it's usually takes a PHD to understand what's going on.  
+And since I'm senile and lazy, I don't want to keep going to external references.  
+Also, it seems it's bloody scattered all over the place, and one has to collect tiny,  
+and I do mean TINY, and sometimes outdated, pieces of information to form something complete.  
+That's why I took the libery to comment EVERYTHING, just in case.  
 
-Note you might need mc > 4.7.5 for this scheme to work (otherwise this file will not be read)
-Hint: See my midnight-commander repository install script.
+Note you might need mc > 4.7.5 for this scheme to work (otherwise this file will not be read)  
+Hint: See my midnight-commander repository install script.  
 
 # Usage
 
-Put the solarized.ini file into $HOME/.mc/lib/mc-solarized directory. 
-Then define MC_SKIN in your .bashrc, .zshrc or .whatnotrc to direct there:
-$ echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc
-Hint: See my midnight-commander repository install script.
+Put the solarized.ini file into $HOME/.mc/lib/mc-solarized directory.   
+Then define MC_SKIN in your .bashrc, .zshrc or .whatnotrc to direct there:  
+$ echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc  
+Hint: See my midnight-commander repository install script.  
 
 # Color reference:
 
-Syntax is: Text color;Background color
+Syntax is: Text color;Background color  
 
-SOLARIZED HEX       TERMCOL
---------  -------   -------
-base03    #002b36   brightblack
-base02    #073642   black
-base01    #586e75   brightgreen
-base00    #657b83   brightyellow
-base0     #839496   brightblue
-base1     #93a1a1   brightcyan
-base2     #eee8d5   white
-base3     #fdf6e3   brightwhite
-yellow    #b58900   brown
-orange    #cb4b16   brightred
-red       #dc322f   red
-magenta   #d33682   magenta
-violet    #6c71c4   brightmageta
-blue      #268bd2   blue
-cyan      #2aa198   cyan
-green     #859900   green
+> SOLARIZED  HEX       TERMCOL
+> ---------  -------   -------------
+> base03     #002b36   brightblack
+> base02     #073642   black
+> base01     #586e75   brightgreen
+> base00     #657b83   brightyellow
+> base0      #839496   brightblue
+> base1      #93a1a1   brightcyan
+> base2      #eee8d5   white
+> base3      #fdf6e3   brightwhite
+> yellow     #b58900   brown
+> orange     #cb4b16   brightred
+> red        #dc322f   red
+> magenta    #d33682   magenta
+> violet     #6c71c4   brightmageta
+> blue       #268bd2   blue
+> cyan       #2aa198   cyan
+> green      #859900   green
 
 lightgray
 
 # Links
 
-[1] - https://www.midnight-commander.org/
-[2] - http://ethanschoonover.com/solarized
-[3] - For gnome-terminal look here:
-      https://github.com/sigurdga/gnome-terminal-colors-solarized
-[4] - http://www.midnight-commander.org/nopaste/skin_parser/outdir/
-[5] - https://github.com/seebi/dircolors-solarized
-[6] - https://www.midnight-commander.org/wiki/doc/common/skins
+[1] - https://www.midnight-commander.org/  
+[2] - http://ethanschoonover.com/solarized  
+[3] - For gnome-terminal look here:  
+      https://github.com/sigurdga/gnome-terminal-colors-solarized  
+[4] - http://www.midnight-commander.org/nopaste/skin_parser/outdir/  
+[5] - https://github.com/seebi/dircolors-solarized  
+[6] - https://www.midnight-commander.org/wiki/doc/common/skins  
