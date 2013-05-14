@@ -1,5 +1,4 @@
-Solarized skin for Midnight Commander
--------------------------------------
+* Solarized skin for Midnight Commander
 
 This is a skin for Midnight Commander [1] using the Solarized palette [2]. It
 is designed to be used with terminal emulators that use Solarized palette as
@@ -12,21 +11,22 @@ close as possible to the Solarized dircolors.ansi-universal [5].
 Some info on skin writing is available on MC wiki [6],
 yet it's usually takes a PHD to understand what's going on.
 And since I'm senile and lazy, I don't want to keep going to external references.
-Also, it seems it's bloody scattered all over the place, and one has to collect tiny, and I do mean TINY, and sometimes outdated, pieces of information to form something complete.
+Also, it seems it's bloody scattered all over the place, and one has to collect tiny, 
+and I do mean TINY, and sometimes outdated, pieces of information to form something complete.
 That's why I took the libery to comment EVERYTHING, just in case.
 
 Note you might need mc > 4.7.5 for this scheme to work (otherwise this file will not be read)
-Hint: compile from the git repository
+Hint: See my midnight-commander repository install script.
 
-Usage
------
+* Usage
 
-Put the solarized.ini file into the $HOME/.mc directory. Then define MC_SKIN
-env variable:
-$ export MC_SKIN=$HOME/.mc/solarized.ini
+Put the solarized.ini file into $HOME/.mc/lib/mc-solarized directory. 
+Then define MC_SKIN in your .bashrc, .zshrc or .whatnotrc to direct there:
+$ echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc
+Hint: See my midnight-commander repository install script.
 
-Color reference:
-----------------
+* Color reference:
+
 Syntax is: Text color;Background color
 
 SOLARIZED HEX       TERMCOL
@@ -50,8 +50,8 @@ green     #859900   green
 
 lightgray
 
-Links
------
+* Links
+
 [1] - https://www.midnight-commander.org/
 [2] - http://ethanschoonover.com/solarized
 [3] - For gnome-terminal look here:
