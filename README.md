@@ -57,13 +57,9 @@ Syntax is: Text color;Background color
 |-----------+---------+---------------|   
 ```
 
-# Links
-I get 10 times more traffic from [Google] [1] than from
-[Yahoo] [2] or [MSN] [3].
-
-  [1]: https://www.midnight-commander.org                                "Midnight Commander"
-  [2]: http://ethanschoonover.com/solarized                              "Solarized palette"
-  [3]: https://github.com/sigurdga/gnome-terminal-colors-solarized       "ANSI colors"
-  [4]: http://www.midnight-commander.org/nopaste/skin_parser/outdir      "GoTaR"
-  [5]: https://github.com/seebi/dircolors-solarized                      "dircolors.ansi-universal"
-  [6]: https://www.midnight-commander.org/wiki/doc/common/skins          "MC wiki"
+[1]: https://www.midnight-commander.org                                "Midnight Commander"
+[2]: http://ethanschoonover.com/solarized                              "Solarized palette"
+[3]: https://github.com/sigurdga/gnome-terminal-colors-solarized       "ANSI colors"
+[4]: http://www.midnight-commander.org/nopaste/skin_parser/outdir      "GoTaR"
+[5]: https://github.com/seebi/dircolors-solarized                      "dircolors.ansi-universal"
+[6]: https://www.midnight-commander.org/wiki/doc/common/skins          "MC wiki"
