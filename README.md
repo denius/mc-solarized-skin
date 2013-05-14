@@ -24,7 +24,9 @@ Hint: See my midnight-commander repository install script.
 Put the solarized.ini file into $HOME/.mc/lib/mc-solarized directory.   
 Then define MC_SKIN in your .bashrc, .zshrc or .whatnotrc to direct there:   
 
-    echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc
+```bash
+echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc
+```
 
 Hint: See my midnight-commander repository install script.
 
@@ -32,6 +34,7 @@ Hint: See my midnight-commander repository install script.
 
 Syntax is: Text color;Background color
 
+```
 |-----------+---------+---------------|   
 | SOLARIZED | HEX     | TERMCOL       |   
 |-----------+---------+---------------|   
@@ -52,6 +55,7 @@ Syntax is: Text color;Background color
 | cyan      | #2aa198 | cyan          |   
 | green     | #859900 | green         |   
 |-----------+---------+---------------|   
+```
 
 # Links
 
