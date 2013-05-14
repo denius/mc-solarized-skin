@@ -20,6 +20,7 @@ That's why I took the libery to comment EVERYTHING, just in case.
 
 Note you might need mc > 4.7.5 for this scheme to work   
 See [MC install script][7] on how to compile from source.   
+
 Clone the repostiry into $HOME/.mc/lib/mc-solarized,   
 and define MC_SKIN in .bashrc, .zshrc or .whatnotrc:   
 
@@ -30,7 +31,7 @@ echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc
 ```
 # Color reference
 
-Syntax is: Text color;Background color
+Syntax: Text color; Background color
 
 ```
 |-----------+---------+---------------|   
@@ -61,4 +62,4 @@ Syntax is: Text color;Background color
 [4]: http://www.midnight-commander.org/nopaste/skin_parser/outdir      "GoTaR"
 [5]: https://github.com/seebi/dircolors-solarized                      "dircolors.ansi-universal"
 [6]: https://www.midnight-commander.org/wiki/doc/common/skins          "MC wiki"
-[6]: https://github.com/iwfmp/midnight-commander/blob/master/install   "MC install script"
+[7]: https://github.com/iwfmp/midnight-commander/blob/master/install   "MC install script"
