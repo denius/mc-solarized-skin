@@ -16,37 +16,40 @@ and I do mean TINY, and sometimes outdated, pieces of information to form someth
 That's why I took the libery to comment EVERYTHING, just in case.  
 
 Note you might need mc > 4.7.5 for this scheme to work (otherwise this file will not be read)  
+
 Hint: See my midnight-commander repository install script.  
 
 # Usage
 
 Put the solarized.ini file into $HOME/.mc/lib/mc-solarized directory.   
 Then define MC_SKIN in your .bashrc, .zshrc or .whatnotrc to direct there:  
-$ echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc  
+
+    echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc  
+
 Hint: See my midnight-commander repository install script.  
 
 # Color reference:
 
 Syntax is: Text color;Background color  
 
-> SOLARIZED  HEX       TERMCOL
-> ---------  -------   -------------
-> base03     #002b36   brightblack
-> base02     #073642   black
-> base01     #586e75   brightgreen
-> base00     #657b83   brightyellow
-> base0      #839496   brightblue
-> base1      #93a1a1   brightcyan
-> base2      #eee8d5   white
-> base3      #fdf6e3   brightwhite
-> yellow     #b58900   brown
-> orange     #cb4b16   brightred
-> red        #dc322f   red
-> magenta    #d33682   magenta
-> violet     #6c71c4   brightmageta
-> blue       #268bd2   blue
-> cyan       #2aa198   cyan
-> green      #859900   green
+SOLARIZED    HEX       TERMCOL   
+---------    -------   -------------   
+* base03     #002b36   brightblack
+* base02     #073642   black
+* base01     #586e75   brightgreen
+* base00     #657b83   brightyellow
+* base0      #839496   brightblue
+* base1      #93a1a1   brightcyan
+* base2      #eee8d5   white
+* base3      #fdf6e3   brightwhite
+* yellow     #b58900   brown
+* orange     #cb4b16   brightred
+* red        #dc322f   red
+* magenta    #d33682   magenta
+* violet     #6c71c4   brightmageta
+* blue       #268bd2   blue
+* cyan       #2aa198   cyan
+* green      #859900   green
 
 lightgray
 
