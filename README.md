@@ -32,26 +32,26 @@ Hint: See my midnight-commander repository install script.
 
 Syntax is: Text color;Background color
 
-|-----------+---------+---------------|
-| SOLARIZED | HEX     | TERMCOL       |
-|-----------+---------+---------------|
-| base03    | #002b36 | brightblack   |
-| base02    | #073642 | black         |
-| base01    | #586e75 | brightgreen   |
-| base00    | #657b83 | brightyellow  |
-| base0     | #839496 | brightblue    |
-| base1     | #93a1a1 | brightcyan    |
-| base2     | #eee8d5 | white         |
-| base3     | #fdf6e3 | brightwhite   |
-| yellow    | #b58900 | brown         |
-| orange    | #cb4b16 | brightred     |
-| red       | #dc322f | red           |
-| magenta   | #d33682 | magenta       |
-| violet    | #6c71c4 | brightmageta  |
-| blue      | #268bd2 | blue          |
-| cyan      | #2aa198 | cyan          |
-| green     | #859900 | green         |
-|-----------+---------+---------------|
+|-----------+---------+---------------|   
+| SOLARIZED | HEX     | TERMCOL       |   
+|-----------+---------+---------------|   
+| base03    | #002b36 | brightblack   |   
+| base02    | #073642 | black         |   
+| base01    | #586e75 | brightgreen   |   
+| base00    | #657b83 | brightyellow  |   
+| base0     | #839496 | brightblue    |   
+| base1     | #93a1a1 | brightcyan    |   
+| base2     | #eee8d5 | white         |   
+| base3     | #fdf6e3 | brightwhite   |   
+| yellow    | #b58900 | brown         |   
+| orange    | #cb4b16 | brightred     |   
+| red       | #dc322f | red           |   
+| magenta   | #d33682 | magenta       |   
+| violet    | #6c71c4 | brightmageta  |   
+| blue      | #268bd2 | blue          |   
+| cyan      | #2aa198 | cyan          |   
+| green     | #859900 | green         |   
+|-----------+---------+---------------|   
 
 # Links
 
