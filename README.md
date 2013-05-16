@@ -16,6 +16,8 @@ Also, it seems it's bloody scattered all over the place, and one has to collect 
 and I do mean TINY, and sometimes outdated, pieces of information to form something complete.   
 That's why I took the libery to comment EVERYTHING, just in case.   
 
+# Screenshot
+
 ![Midnight Commander Solarized](screenshot.png)
 
 # Installation and Usage
