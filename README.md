@@ -34,13 +34,8 @@ git clone https://github.com/iwfmp/mc-solarized-skin.git $HOME/.mc/lib/
 echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc
 ```
 # Color reference
-
-Syntax: Text color; Background color
-
-```
-|-----------+---------+---------------|   
 | SOLARIZED | HEX     | TERMCOL       |   
-|-----------+---------+---------------|   
+|-----------|:--------|:--------------|   
 | base03    | #002b36 | brightblack   |   
 | base02    | #073642 | black         |   
 | base01    | #586e75 | brightgreen   |   
@@ -56,9 +51,7 @@ Syntax: Text color; Background color
 | violet    | #6c71c4 | brightmageta  |   
 | blue      | #268bd2 | blue          |   
 | cyan      | #2aa198 | cyan          |   
-| green     | #859900 | green         |   
-|-----------+---------+---------------|   
-```
+| green     | #859900 | green         | 
 
 [1]: https://www.midnight-commander.org                                "Midnight Commander"
 [2]: http://ethanschoonover.com/solarized                              "Solarized palette"
