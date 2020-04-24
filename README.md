@@ -25,13 +25,13 @@ That's why I took the libery to comment EVERYTHING, just in case.
 Note you might need mc > 4.7.5 for this scheme to work   
 See [MC install script][7] on how to compile from source.   
 
-Clone the repostiry into $HOME/.mc/lib/mc-solarized,   
-and define MC_SKIN in .bashrc, .zshrc or .whatnotrc:   
+Clone the repostiry into `$HOME/.config/mc/`,   
+and define `MC_SKIN` in `.bashrc`, `.zshrc` or `.whatnotrc`:   
 
 ```bash
-mkdir -p $HOME/.mc/lib/
-git clone https://github.com/iwfmp/mc-solarized-skin.git $HOME/.mc/lib/
-echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc
+mkdir -p $HOME/.config/mc/
+git clone https://github.com/denius/mc-solarized-skin.git $HOME/.config/mc/
+echo "MC_SKIN=$HOME/.config/mc/mc-solarized-skin/solarized.ini" >> .zshrc
 ```
 # Color reference
 | SOLARIZED | HEX     | TERMCOL       |   
